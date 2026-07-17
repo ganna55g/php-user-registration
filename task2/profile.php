@@ -16,6 +16,10 @@
    <p>Language: <?php echo $_SESSION["user"]["lang"] ?> </p>
 
    <img src="uploads/<?php echo $_SESSION["user"]["newFileName"]; ?>">
+
+   <a href="index.php">
+    <button>Edit</button>
+   </a>
    
   
 </body>
