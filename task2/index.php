@@ -10,10 +10,6 @@
 <body>
     <h2>User Registration</h2>
 
-    <pre>
-        <?php print_r($_SESSION);  ?>
-    </pre>
-
     <form action="process.php?id=105" method="POST" enctype="multipart/form-data">
         <div class="box">
             <label for="Name">Name:</label>
