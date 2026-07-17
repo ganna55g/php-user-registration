@@ -15,7 +15,7 @@
    <p>Email: <?php echo $_SESSION["user"]["email"] ?> </p>
    <p>Language: <?php echo $_SESSION["user"]["lang"] ?> </p>
 
-   <img src="uploads/<?php echo $_SESSION["user"]["newFileName"]; ?>">
+   <img src="uploads/<?php echo $_SESSION["user"]["newFileName"]; ?>" width="200">
 
    <a href="index.php">
     <button>Edit</button>
