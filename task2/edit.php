@@ -6,4 +6,6 @@ $_SESSION["edit"] = true;
 
 header("Location: index.php");
 
+exit;
+
 ?>
