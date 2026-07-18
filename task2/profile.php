@@ -17,7 +17,7 @@
 
    <img src="uploads/<?php echo $_SESSION["user"]["newFileName"]; ?>" width="200">
 
-   <a href="index.php">
+   <a href="edit.php">
     <button>Edit</button>
    </a>
    
